@@ -1,0 +1,106 @@
+{
+  "superbot_library": {
+    "description": "Pre-built superbots combining multiple Alana quotes",
+    "version": "1.0",
+    "superbots": [
+      {
+        "id": "SB_001_SOLITUDE_DISCOMFORT",
+        "name": "The Growth Through Solitude & Challenge",
+        "strategy": "SYNTHESIS",
+        "source_quotes": ["AB_SOLITUDE_COMPLETE_EN", "AB_DISCOMFORT_COMPLETE_EN"],
+        "themes": ["solitude", "discomfort"],
+        "registers": ["EN_CORE_PHILOSOPHY", "SURFER_LINGO_COMPLETE"],
+        "content": "When you spend time alone developing healthy practices, you build the independence to handle discomfort. That uncomfortable feeling isn't something to avoid—it's your signal that you're growing. Solitude teaches you to trust yourself. Discomfort teaches you what needs to change. Together, they create a cycle: you go inward to prepare, you face challenges to strengthen, you return home to integrate. This is how you develop the resilience that carries you forward.",
+        "linguistic_devices": [
+          "metaphor: cycle",
+          "paradox: discomfort as gift",
+          "antithesis: inward/outward",
+          "personification: signals, teaches",
+          "anaphora: solitude teaches, discomfort teaches"
+        ],
+        "key_concepts": ["solitude", "discomfort", "growth", "independence", "resilience", "cycle"],
+        "logic_flow": "Solitude provides foundation → Discomfort provides growth signal → Together create resilience cycle",
+        "fusion_score": 0.92,
+        "registers_available": {
+          "EN_CORE_PHILOSOPHY": "When you spend time alone developing healthy practices...",
+          "SURFER_LINGO_COMPLETE": "You dial in your rhythm solo, and that tunes you up to handle the heavy sets. Those uncomfortable moments? That's the ocean telling you something. Your alone time teaches you to trust your instincts. The challenge teaches you what's out of balance. Together they keep you sharp: you prepare at home, you test yourself in the water, you come back to shore stronger. That's your resilience."
+        }
+      },
+      {
+        "id": "SB_002_SYSTEMS_FEEDBACK_LOOP",
+        "name": "Systems Through Feedback Networks",
+        "strategy": "NESTED",
+        "source_quotes": ["AB_SYSTEMS_COMPLETE_EN", "AB_FEEDBACK_COMPLETE_EN"],
+        "themes": ["systems", "feedback"],
+        "content": "Everything that works for you over time runs on systems. These systems work because they include feedback from people who matter. Your routine isn't just a schedule—it's a framework for getting honest input from coaches, family, mentors. You write things down so you can review them with people who know you. You make those calls to get perspective. This turns your system into a feedback loop: you observe, you adjust based on input, you improve, you observe again. Systems without feedback stagnate. Feedback without systems gets lost. Together, they create the structure that sustains your life.",
+        "linguistic_devices": ["metaphor: feedback loop", "antithesis: systems/feedback interdependence", "repetition: you observe"],
+        "fusion_score": 0.88
+      },
+      {
+        "id": "SB_003_HOME_PLANNING_VISION",
+        "name": "Home as Vision-Building Station",
+        "strategy": "PARALLEL",
+        "source_quotes": ["AB_HOME_COMPLETE_EN", "AB_PLANNING_COMPLETE_EN"],
+        "themes": ["home", "planning"],
+        "content": "Home is where you build the life you want to live. Planning is how you see it before it happens. At the same time that home grounds you, planning stretches you forward. When you're home, you have the space to reflect and prepare. When you plan, you have the clarity about what home needs to support. This means writing down your thoughts, talking to people who matter, preparing for the year ahead. You get insights that don't come from action—they come from stillness and foresight. Home without planning is reactive. Planning without home is abstract. Together, they create the foundation for every decision you make.",
+        "linguistic_devices": ["metaphor: foundation, ground, stretches", "parallelism: home/planning structure"],
+        "fusion_score": 0.85
+      },
+      {
+        "id": "SB_004_OBSERVATION_INTUITION_SAFETY",
+        "name": "Smart Navigation Through Observation",
+        "strategy": "CYCLE",
+        "source_quotes": ["AB_OBSERVATION_COMPLETE_EN", "AB_INTUITION_COMPLETE_EN"],
+        "themes": ["observation", "planning"],
+        "content": "You observe a lot so you can bring practical mindset wherever you go. That observation builds your intuition. Your intuition guides you back to what you've observed. You read the room, the energy, the conditions. You stay quiet and careful about who you're around. Your intuition says 'this feels off' so you pause. That pause lets you observe more. That observation confirms your intuition. You always have a strategy to be elsewhere if you need to, which means you're not trapped. You observe that you're drained, your intuition says move, so you go home or to somewhere that fills you. You return, observe more clearly, and trust that intuition again. This cycle keeps you safe and grounded.",
+        "linguistic_devices": ["cycle/recursive structure", "metaphor: read the room", "personification: intuition guides"],
+        "fusion_score": 0.90
+      },
+      {
+        "id": "SB_005_POSITIVITY_ROUTINE_RESILIENCE",
+        "name": "Staying Positive Through Structured Discipline",
+        "strategy": "SYNTHESIS",
+        "source_quotes": ["AB_POSITIVITY_COMPLETE_EN", "AB_ROUTINE_COMPLETE_EN"],
+        "themes": ["positivity", "systems"],
+        "content": "How do you stay positive? You start with structure. Your routine of waking early, training, eating at set times—these aren't boring details. They're the scaffolding that holds your mind up. When you maintain structure, you maintain energy. When you have energy, you can surround yourself with positive things. But here's the synthesis: positivity without structure becomes fragile. Structure without positivity becomes rigid. When you combine them, you get resilience. You wake with intention. You train so your body and mind sync up. You have the everyday talks with family and coaches. They remind you of what matters. You write things down about why you do these things. This isn't just going through the motions—it's a conversation between discipline and joy. That's how you stay positive sustainably.",
+        "linguistic_devices": ["metaphor: scaffolding", "synthesis structure", "antithesis: structure/positivity", "parallelism: wake/train/talk"],
+        "fusion_score": 0.89
+      },
+      {
+        "id": "SB_006_COMPLETE_LIFECYCLE",
+        "name": "Complete Life System: Home→Solitude→Discomfort→Growth",
+        "strategy": "RECURSIVE",
+        "source_quotes": [
+          "AB_HOME_COMPLETE_EN",
+          "AB_SOLITUDE_COMPLETE_EN",
+          "AB_DISCOMFORT_COMPLETE_EN",
+          "AB_FEEDBACK_COMPLETE_EN"
+        ],
+        "themes": ["home", "solitude", "discomfort", "feedback"],
+        "content": "Home is the base where everything starts. But here's the deeper understanding: home isn't passive comfort—it's where you actively build. When you're home, you spend time alone developing practices and standards. That solitude strengthens you. That strength lets you face discomfort without breaking. That discomfort tells you something real. You take that feedback to people who matter—family, coaches, mentors. Their perspective comes back to home as wisdom. You integrate it into your routines and values. This becomes your new normal. Which means the next time you're home, you're building from a stronger foundation. Which means your next solitude is deeper. Which means the next discomfort teaches you more. Which means the feedback lands differently. This isn't a one-time cycle—it's a spiral where each turn makes you more capable, more grounded, more intentional. And it all spirals around home as the center.",
+        "linguistic_devices": ["spiral/recursive metaphor", "anaphora: which means", "personification: home/solitude/discomfort as teachers"],
+        "fusion_score": 0.95
+      }
+    ]
+  },
+  "fusion_patterns": {
+    "description": "Patterns in how themes connect",
+    "patterns": [
+      {
+        "name": "Foundation → Challenge → Integration",
+        "order": ["home/solitude", "discomfort/planning", "feedback/observation"],
+        "logic": "Build foundation → Face challenges → Learn from experience"
+      },
+      {
+        "name": "Inward → Outward → Inward",
+        "order": ["solitude", "discomfort/observation", "home/feedback"],
+        "logic": "Reflect internally → Engage externally → Integrate learning"
+      },
+      {
+        "name": "Structure → Authenticity → Resilience",
+        "order": ["systems/routine", "positivity/observation", "discomfort/feedback"],
+        "logic": "Create structure → Be authentic → Handle whatever comes"
+      }
+    ]
+  }
+}
